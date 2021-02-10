@@ -1,4 +1,3 @@
-// Iterate Through the Keys of an Object with a for...in Statement
 /*
 We've defined a function countOnline which accepts one argument (a users object). 
 Use a for...in statement within this function to loop through the users object passed into the 
@@ -14,13 +13,13 @@ const premiums = {
     online: true,
   },
   Sarah: {
-    online: false,
+    online: true,
   },
 };
 const countOnline = (usersObj) => {
   let result = 0;
   for (let user in usersObj) {
-    usersObj[user][online] === true ? result++ : null;
+    usersObj[user].online === true ? result++ : null;
   }
   return result;
 };
