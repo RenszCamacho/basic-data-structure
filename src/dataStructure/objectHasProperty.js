@@ -25,9 +25,14 @@ let users = {
   },
 };
 
-const isEveryoneHere = (obj) =>
-  "Alan" in obj && "Jeff" in obj && "Sarah" in obj && "Ryan" in obj
-    ? true
-    : false;
+// const isEveryoneHere = (obj) =>
+//   "Alan" in obj && "Jeff" in obj && "Sarah" in obj && "Ryan" in obj
+//     ? true
+//     : false;
+
+const isEveryoneHere = (obj) => {
+  const userArr = ["Alan", "Jeff", "Sarah", "Ryan"];
+  return userArr.every((user) => obj.hasOwnProperty(user));
+};
 
 console.log(isEveryoneHere(users));
