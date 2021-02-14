@@ -11,7 +11,6 @@ const repeatStringNumTimes = (str, num) => {
     newStr += str;
   }
   return num <= 0 ? "" : newStr;
-  return num < 0 ? "" : str.repeat(num);
 };
 
 //RECURSION
