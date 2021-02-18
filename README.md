@@ -1,33 +1,10 @@
-# Bundler Boiler Plate. 💫
-
-- A boiler plate to start.
+# Basic Data Structure and Algorithms. 💻
 
 ### Clone the repository
 
 ### Install the dependencies
 
 ```bash
-git clone https://github.com/RenszCamacho/BundlerJs
-cd BundlerJs
+git clone https://github.com/RenszCamacho/basic-data-structure-algorithms
+cd basic-data-structure-algorithms
 ```
-
-## Install the dependencies
-
-```bash
-#Using npm
-npm install
-
-#Using yarn
-yarn
-```
-
-## Run it live
-
-```bash
-#Build dev
-npm run dev or yarn dev
-
-#Build for Production
-npm run build or yarn build
-```
-# basic-data-structure
